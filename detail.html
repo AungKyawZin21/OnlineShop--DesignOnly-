@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top p-0">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img
+            src="img/yuki.png"
+            height="50"
+            alt="MDB Logo"
+            loading="lazy"
+          />
+            <span class="" style="font-weight:bold; font-family:Georgia, 'Times New Roman', Times, serif; color: #cd18c5;">Yuki's Diary</span>
+        </a>
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" style="height: 60px;" id="navbarSupportedContent">
+        
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100" >
+          <li class="nav-item align-middle align-items-center" style="width: 80px;">
+            <a class="nav-link text-center" href="home.html" style="color:#d558ca; padding-top: 16px;" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="color:#d558ca; padding-top: 16px;">Content</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center" style="height: 60px;">
+        <!-- Icon -->
+        <a class="link-secondary me-3" href="cart.html" style="color:#cd18c5;">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="color:#d558ca;" data-mdb-toggle="modal" data-mdb-target="#LogInModal">Login</a>
+            </li>
+          </ul>
+  
+        
+      </div> 
+    </div>
+</nav>
+      <!-- Right elements -->
+
+    <section class="container" style="margin-top: 80px;">
+       <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="img/cloths/cloth1.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h5>Shirt</h5>
+                <h3>Price - 12000 ks</h3>
+                <p class="text-danger"><span class="text-decoration-line-through">15000 ks</span>&nbsp; &nbsp; 15%</p>
+                <h5>Size</h5>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-light">S</button>
+                    <button type="button" class="btn btn-light">M</button>
+                    <button type="button" class="btn btn-light">L</button>
+                    <button type="button" class="btn btn-light">XL</button>
+                    <button type="button" class="btn btn-light">XXL</button>
+                </div>
+                <div class="form-outline mt-3" style="width: 100px;">
+                    <input type="number" id="typeNumber" class="form-control" />
+                    <label class="form-label" for="typeNumber">Quantity</label>
+                </div>
+                <div>
+                    <a href="cart.html" class="btn btn-primary mt-4" style="background-color: rgb(213,88,202);">Add to cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>Delivery</p>
+                <p><i class="fas fa-location-dot"></i>  Mahar Aung Myay, Mandalay</p>
+                <p><i class="fas fa-truck-fast"></i>  Home Delivery <br><span>  3 - 5 days</span></p>
+                <p><i class="fas fa-money-check-dollar"></i>  Cash on Delivery Available</p>
+            </div>
+       </div>
+
+       <div class="row mt-4">
+        <h4 class="text-start">You may like this</h4>
+        <div class="col-md-3">
+            <div class="card shadow text-center">
+              <div class="bg-image hover-overlay ripple">
+                <img src="img/cloths/cloth9.jpg" class="img-fluid" style="height: 300px;"/>
+                <a href="detail.html">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">T Shirt</h5>
+                <h6 class="card-title">12000 - ks</h6>
+                <a href="cart.html" class="btn btn-primary" style="background-color: rgb(213,88,202);">Add to cart</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow text-center">
+              <div class="bg-image hover-overlay ripple">
+                <img src="img/cloths/cloth10.jpg" class="img-fluid" style="height: 300px;"/>
+                <a href="detail.html">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">T Shirt</h5>
+                <h6 class="card-title">12000 - ks</h6>
+                <a href="cart.html" class="btn btn-primary" style="background-color: rgb(213,88,202);">Add to cart</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow text-center">
+              <div class="bg-image hover-overlay ripple">
+                <img src="img/cloths/cloth11.jpg" class="img-fluid" style="height: 300px;"/>
+                <a href="detail.html">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">T Shirt</h5>
+                <h6 class="card-title">12000 - ks</h6>
+                <a href="cart.html" class="btn btn-primary" style="background-color: rgb(213,88,202);">Add to cart</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow text-center">
+              <div class="bg-image hover-overlay ripple">
+                <img src="img/cloths/cloth12.jpg" class="img-fluid" style="height: 300px;"/>
+                <a href="detail.html">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">T Shirt</h5>
+                <h6 class="card-title">12000 - ks</h6>
+                <a href="cart.html" class="btn btn-primary" style="background-color: rgb(213,88,202);">Add to cart</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-white"  style="background-color: rgb(244,188,221);">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0 w-100" >
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgb(213,88,202)">
+        © 2022 Copyright:
+        <a class="text-white" href="home.html">yuki-diary.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <div class="modal fade" id="LogInModal" tabindex="-1" aria-labelledby="LogInModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="LogInModalLabel">Login</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password:</label>
+                <input type="password" class="form-control" id="Password" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary text-white" style="background-color: rgb(244,188,221);" data-mdb-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" style="background-color: rgb(213,88,202)">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+    ></script>
+</body>
+</html>
